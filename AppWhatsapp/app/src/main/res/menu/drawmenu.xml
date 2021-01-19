@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_a"
+            android:title="@string/dm_Nuevogrupo"
+            android:orderInCategory="100"
+            app:showAsAction="never">
+        </item>
+        <item
+            android:id="@+id/item_b"
+            android:checkable="true"
+            android:title="@string/dm_Nuevadifusion"
+            ></item>
+        <item
+            android:id="@+id/item_c"
+            android:checkable="true"
+            android:title="@string/dm_whatsappWeb"
+            ></item>
+        <item
+            android:id="@+id/item_d"
+            android:checkable="true"
+            android:title="@string/dm_mensajeDestacado"
+            ></item>
+        <item
+            android:id="@+id/item_e"
+            android:checkable="true"
+            android:title="@string/dm_Ajustes"
+            ></item>
+    </group>
+
+</menu>
